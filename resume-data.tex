@@ -1,0 +1,176 @@
+%====================================================
+% PERSONAL INFORMATION
+%====================================================
+\newcommand{\personname}{Piotr Jurek}
+\newcommand{\persontitle}{Software Engineer}
+\newcommand{\personemail}{piotrjurek9807@gmail.com}
+\newcommand{\personphone}{+48~660~157~883}
+\newcommand{\personphonehref}{+48660157883}
+\newcommand{\personaddress}{Cracow}
+\newcommand{\personlinkedin}{jurek-piotr}
+\newcommand{\personlinkedinurl}{https://www.linkedin.com/in/jurek-piotr}
+\newcommand{\persongithub}{JatsaCantWin}
+\newcommand{\persongithuburl}{https://github.com/JatsaCantWin}
+\newcommand{\personwebsite}{}
+\newcommand{\personwebsiteurl}{}
+\newcommand{\personphotopath}{../picture.png}
+
+
+%====================================================
+% EDUCATION
+%====================================================
+\newcommand{\numedu}{2}
+
+\newcommand{\eduEntry}[1]{%
+  \ifcase #1\relax
+
+  \or
+    \subsection{Cracow University of Technology
+      \aux{B.S. in Computer Science}
+      \rside{2019 -- 2023}}
+
+  \or
+    \subsection{Cracow University of Technology
+      \aux{M.S. in Computer Science}
+      \rside{2023 -- 2024}}
+
+  \fi
+}
+
+
+%====================================================
+% EXPERIENCE
+% Each experience is kept together in one place.
+%====================================================
+\newcommand{\numexp}{2}
+
+\newcommand{\expEntry}[1]{%
+  \ifcase #1\relax
+
+  \or
+    %----------------------------------------------
+    % EXPERIENCE 1
+    %----------------------------------------------
+    \subsection{Dell Technologies \rside{Remote}}
+    \subsubsection{Software Engineer \rside{Apr 2024 -- Present}}
+    \begin{itemize}
+      \item Built CI/CD integration across an around 150 repository wide organization
+      \item Handled organization-wide rollout of a security scanner across 15 teams
+      \item Cut the main build pipeline's execution time by 75\% via caching and parallel execution
+      \item Prototyped wiring our coding LLM into CI/CD to automate routine tasks like release branch naming, ahead of formal AI adoption
+      \item Made a case for extracting an unnecessary component from a monolithic project which the owning team adopted
+      \item Ported a large FreeBSD-based C++ storage system to Linux, spanning kernel modules, drivers and userland tooling
+      \item Built full-stack features on an internal tool using Spring/Angular/PostgreSQL
+    \end{itemize}
+
+  \or
+    %----------------------------------------------
+    % EXPERIENCE 2
+    %----------------------------------------------
+    \subsection{Nokia \rside{Cracow}}
+    \subsubsection{Software Engineering Intern \rside{Jul 2022 -- Feb 2023}}
+    \begin{itemize}
+      \item Worked on 5G BTS Firmware in C++
+    \end{itemize}
+
+  \fi
+}
+
+
+%====================================================
+% PROJECTS
+%====================================================
+\newcommand{\numproj}{3}
+
+\newcommand{\projEntry}[1]{%
+  \ifcase #1\relax
+
+  \or
+    %----------------------------------------------
+    % PROJECT 1
+    %----------------------------------------------
+    \subsection{Self-Hosted Infrastructure}
+    \begin{itemize}
+      \item NixOS, Docker, Nginx, Prometheus
+      \item Reproducible self-hosted environment running personal services and projects
+    \end{itemize}
+
+  \or
+    %----------------------------------------------
+    % PROJECT 2
+    %----------------------------------------------
+    \subsection{Ticket Management System}
+    \begin{itemize}
+      \item Delphi, SQLite
+      \item Built and deployed a repair-ticket system used by a computer repair shop
+    \end{itemize}
+
+  %\or
+  %  %----------------------------------------------
+  %  % PROJECT 3
+  %  %----------------------------------------------
+  %  \subsection{Dog Racing Speed Measurement}
+  %  \begin{itemize}
+  %    \item Arduino
+  %    \item Developed and deployed an Arduino-based speed measurement system for a racing event
+  %  \end{itemize}
+
+  \fi
+}
+
+
+%====================================================
+% CERTIFICATIONS
+%====================================================
+%\newcommand{\numcert}{0}
+%\newcommand{\certEntry}[1]{%
+%  \ifcase #1\relax
+%  \fi
+%}
+
+
+%====================================================
+% PUBLICATIONS
+%====================================================
+\newcommand{\numpub}{1}
+
+\newcommand{\pubEntry}[1]{%
+  \ifcase #1\relax
+
+  \or
+    Jurek, P., \& Plichta, A. (2024).
+    Forecasting energy consumption in energy clusters using machine learning methods.
+    \emph{ECMS, pp. 500--506, Jun. 07, 2024}
+    \href{https://doi.org/10.7148/2024-0500}{[DOI]}.
+
+  \fi
+}
+
+
+%====================================================
+% AWARDS
+%====================================================
+%\newcommand{\numawd}{0}
+%\newcommand{\awdEntry}[1]{%
+%  \ifcase #1\relax
+%  \fi
+%}
+
+
+%====================================================
+% SKILLS
+%====================================================
+\newcommand{\skillTechnical}{
+  C, C++, Python, Machine Learning, Git, Linux, SQL, JavaScript,
+  Kubernetes, Java, Spring, Ansible, DevOps
+}
+
+\newcommand{\skillLanguage}{
+  Polish (native), English (C2 Cambridge Certified),
+  Japanese (conversational), Polish Sign Language (beginner)
+}
+
+\newcommand{\skillInterests}{
+  Self-hosted Homelab, DIY Electronics and IoT,
+  Languages and Linguistics, Pen-and-Paper RPGs, Cooking
+}
