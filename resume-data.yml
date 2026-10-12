@@ -1,0 +1,436 @@
+personal:
+  name: Piotr Jurek
+  title: Software Engineer
+  email: piotrjurek9807@gmail.com
+  phone: "+48 660 157 883"
+  phone_href: "+48660157883"
+  address: Cracow
+
+  linkedin:
+    username: jurek-piotr
+    url: "https://www.linkedin.com/in/jurek-piotr"
+
+  github:
+    username: JatsaCantWin
+    url: "https://github.com/JatsaCantWin"
+
+  website:
+    name: ""
+    url: ""
+
+education:
+  - id: ms-computer-science
+    institution: Cracow University of Technology
+    degree: M.S. in Computer Science
+    start: 2023
+    end: 2024
+
+  - id: bs-computer-science
+    institution: Cracow University of Technology
+    degree: B.S. in Computer Science
+    start: 2019
+    end: 2023
+
+experience:
+  - id: dell
+    company: Dell Technologies
+    role: Software Engineer
+    location: Remote
+    start: 2024-04
+    end: present
+
+    bullets:
+      - id: dell-ci-cd-scale
+        text: "Built CI/CD integration across an around 150 repository wide organization"
+        tags:
+          - CI/CD
+          - DevOps
+          - Git
+          - automation
+          - scale
+
+      - id: dell-security-scanner
+        text: "Handled organization-wide rollout of a security scanner across 15 teams"
+        tags:
+          - security
+          - DevOps
+          - CI/CD
+          - automation
+          - scale
+
+      - id: dell-build-performance
+        text: "Cut the main build pipeline's execution time by 75% via caching and parallel execution"
+        tags:
+          - CI/CD
+          - performance
+          - optimization
+          - DevOps
+          - automation
+
+      - id: dell-llm-cicd
+        text: "Prototyped wiring our coding LLM into CI/CD to automate routine tasks like release branch naming, ahead of formal AI adoption"
+        tags:
+          - AI
+          - LLM
+          - CI/CD
+          - automation
+          - DevOps
+
+      - id: dell-architecture
+        text: "Made a case for extracting an unnecessary component from a monolithic project which the owning team adopted"
+        tags:
+          - architecture
+          - software design
+          - refactoring
+          - technical leadership
+
+      - id: dell-freebsd-linux
+        text: "Ported a large FreeBSD-based C++ storage system to Linux, spanning kernel modules, drivers and userland tooling"
+        tags:
+          - C++
+          - Linux
+          - FreeBSD
+          - storage
+          - kernel
+          - drivers
+          - systems programming
+
+      - id: dell-fullstack
+        text: "Built full-stack features on an internal tool using Spring/Angular/PostgreSQL"
+        tags:
+          - Java
+          - Spring
+          - Angular
+          - PostgreSQL
+          - SQL
+          - full-stack
+          - backend
+          - frontend
+
+  - id: nokia
+    company: Nokia
+    role: Software Engineering Intern
+    location: Cracow
+    start: 2022-07
+    end: 2023-02
+
+    bullets:
+      - id: nokia-5g-firmware
+        text: "Developed 5G base station (BTS) firmware in C++, working on embedded software for cellular network infrastructure"
+        tags:
+          - C++
+          - firmware
+          - embedded
+          - 5G
+          - telecommunications
+
+projects:
+  - id: self-hosted-infrastructure
+    name: Self-Hosted Infrastructure
+
+    bullets:
+      - id: self-hosted-stack
+        text: "NixOS, Docker, Nginx, Prometheus"
+        tags:
+          - NixOS
+          - Docker
+          - Nginx
+          - Prometheus
+          - Linux
+          - DevOps
+          - infrastructure
+
+      - id: self-hosted-environment
+        text: "Reproducible self-hosted environment running personal services and projects"
+        tags:
+          - NixOS
+          - reproducibility
+          - infrastructure
+          - self-hosting
+          - automation
+
+  - id: resume
+    name: Automated Resume Generation Pipeline
+    bullets:
+      - id: resume-description
+        text: "Built a Python-based resume generation pipeline that automatically selects and orders relevant experience based on a job description."
+        tags:
+          - machine learning
+          - resume
+
+      - id: resume-manual
+        text: "Designed the system around a manually maintained master resume, ensuring generated resumes can only contain pre-written, verified content."
+        tags:
+          - machine learning
+          - no ai written content
+
+      - id: resume-tech-stack
+        text: "Pydantic, DSPy, Jinja2, LaTeX"
+        tags:
+          - Pydantic
+          - Python
+          - Machine Learning
+          - DSPy
+          - Jinja
+          - Latex
+
+  - id: ticket-management-system
+    name: Ticket Management System
+
+    bullets:
+      - id: ticket-system-stack
+        text: "Delphi, SQLite"
+        tags:
+          - Delphi
+          - SQLite
+          - database
+
+      - id: ticket-system-deployed
+        text: "Built and deployed a repair-ticket system used by a computer repair shop"
+        tags:
+          - software development
+          - deployment
+          - database
+          - business software
+
+  - id: dog-racing-speed-measurement
+    name: Dog Racing Speed Measurement
+
+    bullets:
+      - id: dog-racing-arduino
+        text: "Arduino"
+        tags:
+          - Arduino
+          - embedded
+          - electronics
+          - IoT
+
+      - id: dog-racing-system
+        text: "Developed and deployed an Arduino-based speed measurement system for a racing event"
+        tags:
+          - Arduino
+          - embedded
+          - electronics
+          - measurement
+          - IoT
+
+certifications: []
+
+publications:
+  - id: energy-cluster-forecasting
+    authors:
+      - Piotr Jurek
+      - A. Plichta
+
+    year: 2024
+
+    title: "Forecasting energy consumption in energy clusters using machine learning methods"
+
+    venue: ECMS
+
+    pages: "500--506"
+
+    date: "2024-06-07"
+
+    doi:
+      url: "https://doi.org/10.7148/2024-0500"
+      label: DOI
+
+awards: []
+
+skills:
+  technical:
+    - id: c
+      name: C
+      tags:
+        - programming
+        - systems
+
+    - id: cpp
+      name: C++
+      tags:
+        - programming
+        - systems
+        - backend
+        - embedded
+        - firmware
+
+    - id: jenkins
+      name: Jenkins
+      tags:
+        - devops
+        - cicd
+        - automation
+
+    - id: maven
+      name: Maven
+      tags:
+        - build system
+        - packages
+        - backend
+
+    - id: python
+      name: Python
+      tags:
+        - programming
+        - backend
+        - automation
+        - machine-learning
+
+    - id: machine-learning
+      name: Machine Learning
+      tags:
+        - AI
+        - Python
+        - data-science
+
+    - id: git
+      name: Git
+      tags:
+        - version-control
+        - DevOps
+        - CI/CD
+
+    - id: linux
+      name: Linux
+      tags:
+        - operating-systems
+        - systems
+        - DevOps
+        - infrastructure
+
+    - id: sql
+      name: SQL
+      tags:
+        - database
+        - backend
+
+    - id: javascript
+      name: JavaScript
+      tags:
+        - programming
+        - frontend
+        - web
+
+    - id: typescript
+      name: TypeScript
+      tags:
+        - programming
+        - frontend
+        - web
+
+    - id: kubernetes
+      name: Kubernetes
+      tags:
+        - DevOps
+        - infrastructure
+        - containers
+        - cloud
+
+    - id: java
+      name: Java
+      tags:
+        - programming
+        - backend
+        - Spring
+
+    - id: spring
+      name: Spring
+      tags:
+        - Java
+        - backend
+        - web
+
+    - id: angular
+      name: Angular
+      tags:
+        - typescript
+        - javascript
+        - frontend
+        - web
+
+    - id: postgresql
+      name: PostgreSQL
+      tags:
+        - database
+        - bakend
+
+    - id: rabbitmq
+      name: RabbitMQ
+      tags:
+        - queue
+        - backend
+
+    - id: redis
+      name: Redis
+      tags:
+        - queue
+        - backend
+
+    - id: ansible
+      name: Ansible
+      tags:
+        - automation
+        - DevOps
+        - infrastructure
+
+    - id: devops
+      name: DevOps
+      tags:
+        - CI/CD
+        - automation
+        - infrastructure
+
+    - id: c-sharp
+      name: C\#
+      tags:
+        - backend
+        - C#
+
+    - id: fast-api
+      name: FastAPI
+      tags:
+        - python
+        - backend
+
+  language:
+    - id: polish
+      name: Polish
+      level: native
+
+    - id: english
+      name: English
+      level: C2 Cambridge certified
+
+    - id: japanese
+      name: Japanese
+      level: conversational
+
+    - id: polish-sign-language
+      name: Polish Sign Language
+      level: beginner
+
+  interests:
+    - id: self-hosted-homelab
+      name: Self-hosted Homelab
+      tags:
+        - Linux
+        - infrastructure
+        - self-hosting
+
+    - id: diy-electronics-iot
+      name: DIY Electronics and IoT
+      tags:
+        - electronics
+        - Arduino
+        - embedded
+        - IoT
+
+    - id: languages-linguistics
+      name: Languages and Linguistics
+
+    - id: pen-and-paper-rpgs
+      name: Pen-and-Paper RPGs
+
+    - id: cooking
+      name: Cooking

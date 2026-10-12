@@ -5,6 +5,9 @@ Thumbs.db
 ## Make output
 output
 
+## Enviornment files
+.env
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

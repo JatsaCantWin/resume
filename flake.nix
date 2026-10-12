@@ -45,6 +45,10 @@
           packages = [
             tex
             pkgs.biber
+            pkgs.python313
+            pkgs.python313Packages.jinja2
+            pkgs.python313Packages.pyyaml
+            pkgs.python313Packages.dspy
           ];
         };
       }
